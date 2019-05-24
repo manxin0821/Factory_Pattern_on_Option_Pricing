@@ -30,7 +30,7 @@ int main()
     PayOff* PayOffPtr =PayOffFactory::Instance().CreatePayOff(name,K);
 
     std::fstream fs;
-    fs.open ("/Users/manxin/Dropbox/FinCad/binomialTree.csv", std::fstream::in | std::fstream::out | std::fstream::app);
+    fs.open ("", std::fstream::in | std::fstream::out | std::fstream::app);
 
     for (int N=1; N<=1000; N++)
     {
